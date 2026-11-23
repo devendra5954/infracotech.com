@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about InfraCoTech and its founder, Devendra Kumar, and our IT and infrastructure support services.">
+  <meta name="author" content="InfraCoTech">
+  <meta name="theme-color" content="#0b1220">
+  <title>About Us | InfraCoTech</title>
+  <link rel="icon" type="image/png" sizes="256x256" href="infracotech-favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="infracotech-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .brand { display:flex; align-items:center; text-decoration:none; }
+    .brand-logo { display:block; width:auto; height:70px; max-width:300px; object-fit:contain; }
+    .dt-footer-logo { display:inline-flex; align-items:center; }
+    .footer-brand-logo { display:block; width:auto; height:56px; max-width:240px; object-fit:contain; }
+    .about-page { padding: clamp(55px,8vw,100px) 0; }
+    .about-intro { display:grid; grid-template-columns:1fr 1.2fr; gap:clamp(25px,5vw,65px); align-items:start; }
+    .about-copy h1 { color:#0b1220; font-family:'Manrope',sans-serif; font-size:clamp(34px,5vw,52px); line-height:1.12; margin:12px 0 22px; }
+    .about-copy h1 em { color:#1769c2; font-style:normal; }
+    .about-copy p { line-height:1.8; margin:0 0 16px; }
+    .about-founder { display:grid; grid-template-columns:minmax(220px,.8fr) minmax(0,1.4fr); gap:clamp(28px,5vw,64px); align-items:center; margin-top:64px; padding:clamp(22px,4vw,42px); background:#f5f8fc; border:1px solid #e4ebf4; border-radius:24px; box-shadow:0 18px 45px rgba(11,18,32,.07); }
+    .founder-photo-wrap { width:100%; max-width:340px; justify-self:center; overflow:hidden; border-radius:20px; background:#e8eef6; box-shadow:0 14px 34px rgba(11,18,32,.15); }
+    .founder-photo { display:block; width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 25%; }
+    .founder-details h2 { margin:10px 0 4px; color:#0b1220; font-family:'Manrope',sans-serif; font-size:clamp(28px,4vw,40px); line-height:1.15; }
+    .founder-details h3 { margin:0 0 18px; color:#1769c2; font-size:17px; font-weight:700; }
+    .founder-details p { line-height:1.8; }
+    .about-sign { color:#1769c2; font-weight:800; margin-top:22px; }
+    @media(max-width:700px) { .brand-logo { height:48px; max-width:210px; } .footer-brand-logo { height:46px; max-width:205px; } .about-intro,.about-founder { grid-template-columns:1fr; gap:26px; } .about-founder { margin-top:42px; padding:22px; } .founder-photo-wrap { max-width:260px; } }
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><span>Professional IT Support & Infrastructure Solutions</span><a href="tel:+916395555954">Call: +91 63955 55954</a></div></div>
+  <header class="site-header"><div class="container nav-wrap">
+    <a href="index.html#home" class="brand" aria-label="InfraCoTech Home"><img src="infracotech-logo.png" alt="InfraCoTech" class="brand-logo"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html#home">Home</a><a href="about.html" aria-current="page">About Us</a><a href="index.html#services">Services</a><a href="index.html#pricing">Pricing</a><a href="index.html#contact" class="nav-cta">Get Support</a>
+    </nav>
+  </div></header>
+
+  <main class="about-page">
+    <div class="container">
+      <div class="about-intro">
+        <div class="about-copy">
+          <div class="eyebrow dark-eyebrow">WELCOME TO INFRACOTECH</div>
+          <h1>Technology & Infrastructure Support <em>You Can Count On.</em></h1>
+        </div>
+        <div class="about-copy">
+          <p>At InfraCoTech, we understand how important reliable technology is for businesses and individuals. From everyday computer issues to server administration and infrastructure management, we aim to provide practical and affordable IT solutions.</p>
+          <p>Our services cover desktop and laptop support, Windows and Linux administration, server patching, Ansible automation, AWS infrastructure and network troubleshooting.</p>
+          <p class="about-sign">Your Infrastructure. Our Responsibility.</p>
+        </div>
+      </div>
+
+      <section class="about-founder" aria-labelledby="founder-name">
+        <div class="founder-photo-wrap"><img src="devendra-founder.jpg" alt="Devendra Kumar, Founder of InfraCoTech" class="founder-photo" loading="lazy"></div>
+        <div class="founder-details">
+          <div class="eyebrow dark-eyebrow">MEET OUR FOUNDER</div>
+          <h2 id="founder-name">Devendra Kumar</h2>
+          <h3>Founder – InfraCoTech</h3>
+          <p>I am Devendra Kumar, an IT professional with 8 years of experience and a Bachelor of Computer Applications (BCA) degree. My focus is on practical IT support and infrastructure solutions for individuals and businesses.</p>
+          <p>Through InfraCoTech, I aim to help customers with desktop and laptop support, Windows and Linux administration, server maintenance, AWS infrastructure and network troubleshooting.</p>
+          <p class="about-sign">Reliable support. Practical solutions.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="dt-footer"><div class="dt-footer-container"><div class="dt-footer-grid">
+    <div class="dt-footer-about"><a href="index.html#home" class="dt-footer-logo" aria-label="InfraCoTech Home"><img src="infracotech-logo.png" alt="InfraCoTech" class="footer-brand-logo"></a><p>Your trusted IT and infrastructure support partner. We provide desktop, laptop, Windows, Linux, server patching, Ansible automation, AWS and network support for individuals and businesses.</p><a href="index.html#contact" class="dt-footer-button">Get IT Support →</a></div>
+    <div class="dt-footer-column"><h3>Our Services</h3><ul><li><a href="index.html#services">Desktop & Laptop Support</a></li><li><a href="index.html#services">Windows Installation</a></li><li><a href="index.html#services">Linux Support</a></li><li><a href="index.html#services">Linux Server Patching</a></li><li><a href="index.html#services">Ansible Automation</a></li><li><a href="index.html#services">AWS Cloud Support</a></li><li><a href="index.html#services">Windows Server Support</a></li><li><a href="index.html#services">Network Support</a></li></ul></div>
+    <div class="dt-footer-column"><h3>Company</h3><ul><li><a href="index.html#home">Home</a></li><li><a href="about.html">About InfraCoTech</a></li><li><a href="index.html#services">All Services</a></li><li><a href="index.html#pricing">Our Pricing</a></li><li><a href="index.html#contact">Get a Quote</a></li><li><a href="index.html#contact">Contact Us</a></li></ul></div>
+    <div class="dt-footer-column dt-footer-contact"><h3>Contact Us</h3><p><span>☎</span> <a href="tel:+916395555954">+91 63955 55954</a></p><p><span>✉</span> <a href="mailto:devkumar8826@gmail.com">devkumar8826@gmail.com</a></p><p><span>◉</span> <a href="https://wa.me/916395555954" target="_blank" rel="noopener">WhatsApp Support</a></p></div>
+  </div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
